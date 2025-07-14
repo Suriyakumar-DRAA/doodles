@@ -6,5 +6,6 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   templateUrl: './textbox.html',
   styleUrl: './textbox.scss',
+  standalone: true,
 })
 export class Textbox {}

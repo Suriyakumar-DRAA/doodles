@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcome } from './nx-welcome';
-import { Textbox } from '@dragarwal-doodles/textbox'; // <-- Add this line
 
 @Component({
-  imports: [NxWelcome, RouterModule, Textbox],
+  standalone: true,
+  imports: [RouterModule],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.scss',
